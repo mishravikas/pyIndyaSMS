@@ -37,7 +37,7 @@ def sendSMS():
                 fv("1","LoginForm[password]",password)
                 submit()
         except:
-                print "Sorry this API needs updation contact "
+                print "Sorry this API needs updation, please report it under issues at https://github.com/mishravikas/pyIndyaSMS "
         
         number=raw_input("Enter to number : ")
         message=raw_input("Enter message to %s: " %(number))
